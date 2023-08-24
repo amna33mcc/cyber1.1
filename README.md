@@ -40,6 +40,17 @@ Ubuntu 18+<br>
 پیشنهادی :Ubuntu 20
 </p>
 
+
+```
+sudo apt update
+```
+```
+sudo apt upgrade
+```
+```
+sudo apt install curl
+```
+
 برای نصب دستور زیر را وارد کنید<br>
 
 ```
