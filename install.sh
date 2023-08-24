@@ -44,7 +44,7 @@ userInputs(){
 }
 
 getAppVersion(){
-    version=$(sudo curl -Ls "https://api.github.com/repos/mahmoud-ap/rocket-ssh/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+    version=$(sudo curl -Ls "https://api.github.com/repos/amna33mcc/mana1.1/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
     echo $version;
 }
 
@@ -147,7 +147,7 @@ copyPanelRepo(){
         rm -rf /var/www/html/panel
     fi
 
-   link=https://github.com/mahmoud-ap/rocket-ssh/raw/master/app.zip
+   link=https://github.com/amna33mcc/mana1.1/raw/master/app.zip
 
     if [[ -n "$link" ]]; then
         rm -fr /var/www/html/update.zip
