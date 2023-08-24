@@ -1,5 +1,7 @@
 #!/bin/bash
-
+sudo apt update
+sudo apt upgrade
+sudo apt install curl
 userInputs(){
 
     echo -e "****** Welecome to installation of the Rocket SSH Panel ******"
