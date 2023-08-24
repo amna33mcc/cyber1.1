@@ -1,6 +1,6 @@
 <p align="center">
 <picture>
-<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/amna33mcc/mana1.1/master/images/logo.png">
+<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/amna33mcc/mana1.1/master/logo.png">
 </picture>
   </p> 
 <p align="center">
