@@ -1,20 +1,20 @@
 <p align="center">
 <picture>
-<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/images/logo.png">
+<img width="160" height="160"  alt="XPanel" src="https://raw.githubusercontent.com/amna33mcc/mana1.1/master/images/logo.png">
 </picture>
   </p> 
 <p align="center">
-<h1 align="center"/>Rocket SSH</h1>
+<h1 align="center"/>MaNa Cloud</h1>
 <h6 align="center">SSH User Management<h6>
 </p>
 
 <p align="center">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/mahmoud-ap/rocket-ssh">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/amna33mcc/mana1.1">
 </p>
 
 ## معرفی <br>
 
-راکت اس اس اچ پنل یک نرم افزار تحت وب جهت مدیریت اکانت SSH می باشد.
+مانا کلود پنل یک نرم افزار تحت وب جهت مدیریت اکانت SSH می باشد.
 
 ## امکانات <br>
 
@@ -24,7 +24,6 @@
 ✔️ اعمال محدودیت در چند کاربره بودن اکانت<br>
 ✔️ مشاهده کاربران آنلاین<br>
 ✔️ امکان بکاپ گیری از کاربران و ریستور بکاپ<br>
-✔️ امکان افزودن فایل بکاپ از پنل های شاهان و ایکس پنل<br>
 ✔️ تنظیم پورت ورود برای پنل<br>
 ✔️ تنظیم پورت های UDP , SSH در پنل ادمین<br>
 ✔️ تنظیم آدرس جعلی (جلوگیری از فیلترینگ) <br>
@@ -44,7 +43,7 @@ Ubuntu 18+<br>
 برای نصب دستور زیر را وارد کنید<br>
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/install.sh --ipv4)
 ```
 
 # آپدیت پنل ادمین
@@ -52,7 +51,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/i
 نیازی به نصب مجدد نیست . با این روش فقط پنل ادمین آپدیت می شود . در این روش اطلاعات دیتابیس تغییر نمی کند
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/update-panel.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/update-panel.sh --ipv4)
 ```
 
 # نصب وردپرس
@@ -60,7 +59,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/u
 جهت نصب وردپرس دستور زیر را اجرا کنید. بعد از نصب حتما اطلاعات را یادداشت کرده و در مراحل بعدی از آن استفاده کنید
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/install-wp.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/install-wp.sh --ipv4)
 ```
 
 # بلاک کردن آی پی های ایران
@@ -68,24 +67,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/i
 جهت بلاک کردن آی پی های ایران از دستور زیر استفاده کنید
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mahmoud-ap/rocket-ssh/master/block-ir-ip.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block-ir-ip.sh --ipv4)
 ```
 
-# ❤️ حمایت = دلگرمی ❤️
 
-TRX
-
-```
-TFU4acBKt1pQgog2s22pHp7WrXjJWjKZhH
-```
-
-# کانال تلگرام
-
-https://t.me/rocket_ssh
-
-# محیط نرم افزار
-
-![](images/1.png)
-![](images/2.png)
-![](images/3.png)
-![](images/4.png)
