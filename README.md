@@ -26,7 +26,7 @@
 ✔️ امکان بکاپ گیری از کاربران و ریستور بکاپ<br>
 ✔️ تنظیم پورت ورود برای پنل<br>
 ✔️ تنظیم پورت های UDP , SSH در پنل ادمین<br>
-✔️ تنظیم آدرس جعلی (جلوگیری از فیلترینگ) <br>
+✔️ تنظیم آدرس فیک<br>
 ✔️ محدودیت IP(جلوگیری از ورود کاربران به برخی سایت ها)<br>
 ✔️ اتصال API<br>
 ✔️ اطلاعات سیستم(RAM, CPU, HDD)<br>
@@ -62,9 +62,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/updat
 bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/install-wp.sh --ipv4)
 ```
 
-# بلاک کردن آی پی های ایران
+# بلاک کردن آی پی
 
-جهت بلاک کردن آی پی های ایران از دستور زیر استفاده کنید
+جهت بلاک کردن آی پی از دستور زیر استفاده کنید
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block-ir-ip.sh --ipv4)
