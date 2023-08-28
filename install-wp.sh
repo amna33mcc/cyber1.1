@@ -12,7 +12,7 @@ DB_PASS=${DB_PASS:-$(openssl rand -base64 12)}
 read -p "Enter the database name (default: wp_database): " DB_NAME
 DB_NAME=${DB_NAME:-wp_database}
 
-# Specify the WordPress folder location
+# Specify the WordPress folder locations
 WP_DIR="/var/www/html/wordpress"
 WP_URL="https://wordpress.org/latest.zip"
 
