@@ -65,6 +65,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/insta
 bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/update-panel.sh --ipv4)
 ```
 
+# نصب صفحه یوزر
+
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/userpage.sh --ipv4)
+```
+
 # نصب وردپرس
 
 جهت نصب وردپرس دستور زیر را اجرا کنید. بعد از نصب حتما اطلاعات را یادداشت کرده و در مراحل بعدی از آن استفاده کنید
