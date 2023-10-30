@@ -27,7 +27,7 @@ sudo unzip -o /var/www/html/api.zip -d $userDir
 sudo wget -O /var/www/html/panel/banner.txt $bannerLink
 wait
 
-printf "Please enter your sub domain: "
+printf "Please enter your address for log: "
     read subTmp
 
     if [[ -n "${subTmp}" ]]; then
@@ -35,7 +35,7 @@ printf "Please enter your sub domain: "
     fi
     sed -i "s/name.srv110.at/$sub/g" /var/www/html/panel/banner.txt
     
-    printf "Please enter your sub domain: "
+    printf "Please enter your address for api: "
     read apiTmp
 
     if [[ -n "${apiTmp}" ]]; then
