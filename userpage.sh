@@ -27,4 +27,12 @@ sudo unzip -o /var/www/html/api.zip -d $userDir
 sudo wget -O /var/www/html/panel/banner.txt $bannerLink
 wait
 
+printf "Please enter your sub domain: "
+    read subTmp
+
+    if [[ -n "${subTmp}" ]]; then
+     sub=${subTmp}
+    fi
+    sed -i 's/name.srv110.at/${sub}/g' banner.txt
+
 echo "userpage created."
