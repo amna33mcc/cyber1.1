@@ -50,7 +50,7 @@ sudo apt upgrade
 ```
 sudo apt install curl
 ```
-
+#نصب
 برای نصب دستور زیر را وارد کنید<br>
 
 ```
