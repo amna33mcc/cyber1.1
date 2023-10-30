@@ -1,11 +1,13 @@
-
+banner.txt
 # Set URLs and file paths
 repoLink="https://github.com/amna33mcc/mana1.1/raw/master/userpage.zip"
 
 userDir="/var/www/html/example"
 
 # Banner Path
+bannerLink="https://github.com/amna33mcc/mana1.1/raw/master/banner.txt"
 bannerPath="/var/www/html/panel/banner.txt"
+
 
 if [ ! -e "$bannerPath" ]; then
     touch "$bannerPath"
@@ -20,6 +22,9 @@ sudo wget -O /var/www/html/api.zip $repoLink
 
 # # Extract userpage code
 sudo unzip -o /var/www/html/api.zip -d $userDir
+
+# Download userpage code zip file
+sudo wget -O /var/www/html/panel/banner.txt $bannerLink
 wait
 
 echo "userpage created."
