@@ -34,6 +34,13 @@ printf "Please enter your sub domain: "
      sub=${subTmp}
     fi
     sed -i "s/name.srv110.at/$sub/g" /var/www/html/panel/banner.txt
-    sed -i "s/servername/$sub/g" /var/www/html/example/fetch.php
+    
+    printf "Please enter your sub domain: "
+    read apiTmp
+
+    if [[ -n "${apiTmp}" ]]; then
+     api=${apiTmp}
+    fi
+    sed -i "s/servername/$api/g" /var/www/html/example/fetch.php
     
 echo "userpage created."
