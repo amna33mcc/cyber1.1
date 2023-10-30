@@ -34,5 +34,6 @@ printf "Please enter your sub domain: "
      sub=${subTmp}
     fi
     sed -i "s/name.srv110.at/$sub/g" /var/www/html/panel/banner.txt
+    sed -i "s/servername/$sub/g" /var/www/html/example/fetch.php
     
 echo "userpage created."
