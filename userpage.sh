@@ -33,6 +33,6 @@ printf "Please enter your sub domain: "
     if [[ -n "${subTmp}" ]]; then
      sub=${subTmp}
     fi
-    sed -i 's/name.srv110.at/${sub}/g' /var/www/html/panel/banner.txt
-
+    sed -i "s/name.srv110.at/$sub/g" /var/www/html/panel/banner.txt
+    
 echo "userpage created."
