@@ -42,5 +42,7 @@ printf "Please enter your address for log: "
      api=${apiTmp}
     fi
     sed -i "s/servername/$api/g" /var/www/html/example/fetch.php
-    
-echo "userpage created."
+    sed -i "s/Banner /root/banner.txt/Banner /var/www/html/panel/banner.txt/g" /etc/ssh/sshd_config
+   systemctl restart ssh.service
+    wait
+echo "user page created."
