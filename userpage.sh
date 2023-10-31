@@ -27,6 +27,7 @@ sudo unzip -o /var/www/html/api.zip -d $userDir
 sudo wget -O /var/www/html/panel/banner.txt $bannerLink
 wait
 
+#set address for log
 printf "Please enter your address for log: "
     read subTmp
 
@@ -34,8 +35,10 @@ printf "Please enter your address for log: "
      sub=${subTmp}
     fi
     sed -i "s/name.srv110.at/$sub/g" /var/www/html/panel/banner.txt
-    
-    printf "Please enter your address for api: "
+    wait
+
+#set address for api    
+printf "Please enter your address for api: "
     read apiTmp
 
     if [[ -n "${apiTmp}" ]]; then
@@ -43,10 +46,36 @@ printf "Please enter your address for log: "
     fi
     sed -i "s/servername/$api/g" /var/www/html/example/fetch.php
     wait
-    sed -i 's/#Banner none/Banner \/root\/banner.txt/g' /etc/ssh/sshd_config
+
+#set db username
+printf "Please enter your panel username: "
+    read userTmp
+
+    if [[ -n "${userTmp}" ]]; then
+     user=${userTmp}
+    fi
+    sed -i "s/srvadmin/$user/g" /var/www/html/example/db.php
     wait
-    sed -i 's/Banner \/root\/banner.txt/Banner \/var\/www\/html\/panel\/banner.txt/g' /etc/ssh/sshd_config
+
+ #set db password
+ printf "Please enter your panel password: "
+    read passTmp
+    if [[ -n "${passTmp}" ]]; then
+     pass=${passTmp}
+    fi
+    sed -i "s/AmNay33550288/$pass/g" /var/www/html/example/db.php
     wait
-   systemctl restart ssh.service
+
+#set db username 
+sed -i 's/#Banner none/Banner \/root\/banner.txt/g' /etc/ssh/sshd_config
     wait
-echo "user page created."
+
+#set banner address to sshd config
+sed -i 's/Banner \/root\/banner.txt/Banner \/var\/www\/html\/panel\/banner.txt/g' /etc/ssh/sshd_config
+    wait
+
+#restart SSH
+systemctl restart ssh.service
+    wait
+    
+echo "User Page Created."
