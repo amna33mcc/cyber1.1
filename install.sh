@@ -2,7 +2,7 @@
 
 userInputs(){
 
-    echo -e "****** Welecome to installation of the Rocket SSH Panel ******"
+    echo -e "****** Welecome to installation of the Mana SSH Panel ******"
     printf "Default username is \e[33m${username}\e[0m, let it blank to use this username: "
     read usernameTmp
 
@@ -355,7 +355,7 @@ ENDOFFILE
 }
 
 installationInfo(){
-    echo -e "\n **** Rocket SSH Paenl **** \n"
+    echo -e "\n **** Mana SSH Paenl **** \n"
     echo -e "Panel Link : $httpProtcol://${ipv4}:$panelPort/login"
     echo -e "Username : ${username}"
     echo -e "Password : ${password}"
@@ -377,7 +377,7 @@ panelPort=8081
 httpProtcol="http"
 panelPath=$(getPanelPath)
 panelPortPath="/var/www/html/panelport"
-nethogsLink=https://raw.githubusercontent.com/mahmoud-ap/nethogs-json/master/install.sh
+nethogsLink=https://raw.githubusercontent.com/amna33mcc/Nethogs-Json-main/master/install.sh
 
 checkRoot
 userInputs
