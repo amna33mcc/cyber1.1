@@ -42,15 +42,9 @@ Ubuntu 18+<br>
 
 
 # آپدیت سرور و نصب پیش نیازها
-در برخی از سرور ها لازم است دستورات زیر قبل از نصب پنل اجرا شود
+در برخی از سرور ها لازم است دستور زیر قبل از نصب پنل اجرا شود
 ```
-sudo apt update
-```
-```
-sudo apt upgrade
-```
-```
-sudo apt install curl
+sudo apt update && sudo apt upgrade -y && sudo apt install curl -y
 ```
 
 # نصب
