@@ -453,7 +453,7 @@ ENDOFFILE
 installationInfo(){
     clear
     echo -e "\n"
-    bannerText=$(curl -s https://raw.githubusercontent.com/amna33mcc/mana1.1/master/rocket-banner.txt)
+    bannerText=$(curl -s https://raw.githubusercontent.com/amna33mcc/mana1.1/master/mana-banner.txt)
     printf "%s" "$bannerText"
     echo -e "\n"
     printf "Panel Link : $httpProtcol://${ipv4}:$panelPort/login"
