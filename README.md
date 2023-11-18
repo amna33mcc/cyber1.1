@@ -62,14 +62,6 @@ bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/insta
 bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/update-panel.sh --ipv4)
 ```
 
-# نصب صفحه یوزر
-برای نصب صفحه اطلاعات یوزر دستور زیر را وارد کنید<br>
-
-
-```
-bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/userpage.sh --ipv4)
-```
-
 # نصب وردپرس
 
 جهت نصب وردپرس دستور زیر را اجرا کنید. بعد از نصب حتما اطلاعات را یادداشت کرده و در مراحل بعدی از آن استفاده کنید
@@ -85,5 +77,11 @@ bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/insta
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block-ir-ip.sh --ipv4)
 ```
+# فعال کردن ssl
 
+جهت فعال کردن sll از دستور زیر استفاده کنید
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block-ir-ip.sh --ipv4)
+```
 
