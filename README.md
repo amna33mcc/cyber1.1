@@ -85,3 +85,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block
 bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block-ir-ip.sh --ipv4)
 ```
 
+
+
+ [
+        "label" => "ترافیک مصرفی",
+        "value" => $consumerTraffic ? "<span id='spn-user-traffic'>$consumerTraffic</span>" : 0
+    ],
+
