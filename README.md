@@ -85,6 +85,25 @@ bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block
 bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block-ir-ip.sh --ipv4)
 ```
 
+# تانل ریورس tls
+
+جهت فعال کردن تانل از دستور زیر استفاده کنید
+
+```
+sudo apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/Azumi67/Reverse_tls/main/go.sh)
+```
+
+
+# آپتیمایزر 
+
+جهت فعال کردن آپتیمایزر از دستور زیر استفاده کنید
+
+```
+apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/optimizer.sh --ipv4)
+```
+
+
+
 
 
  [
