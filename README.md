@@ -102,6 +102,14 @@ sudo apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/Azu
 apt install curl -y && bash <(curl -s https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/optimizer.sh --ipv4)
 ```
 
+# پروکسی تلگرام 
+
+جهت راه اندازی پروکسی از دستور زیر استفاده کنید
+
+```
+curl -L -o mtp_install.sh https://git.io/fj5ru && bash mtp_install.sh
+```
+
 
 
 
