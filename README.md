@@ -82,7 +82,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block
 جهت فعال کردن sll از دستور زیر استفاده کنید
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/amna33mcc/mana1.1/master/block-ir-ip.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/xpanel-cp/XPanel-SSH-User-Management/master/ssl.sh --ipv4)
 ```
 
 # تانل ریورس tls
