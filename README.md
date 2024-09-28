@@ -112,10 +112,10 @@ curl -L -o mtp_install.sh https://git.io/fj5ru && bash mtp_install.sh
 
 
 
+curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 
 
- [
-        "label" => "ترافیک مصرفی",
-        "value" => $consumerTraffic ? "<span id='spn-user-traffic'>$consumerTraffic</span>" : 0
-    ],
+chmod +x openvpn-install.sh
 
+
+./openvpn-install.sh
